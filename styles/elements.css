@@ -1,0 +1,13 @@
+span{
+    /* display: block; */
+    /* inline blockk is used if you want to add margin  or paddings top and bottom */
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+div{
+    /* display: inline; */
+    border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+}
