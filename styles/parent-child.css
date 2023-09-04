@@ -1,0 +1,21 @@
+div p{
+    color: pink;
+}
+div p.testing-specific{
+    color: violet; 
+}
+a[href]{
+    color: blue;
+}
+/* this is working */
+/* a[href="https://chat.openai.com"]{
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+/* a[href*="https://chat.openai.com"]{
+    color: green;
+} */
+a[href$=".com"]{
+    color: yellow;
+}

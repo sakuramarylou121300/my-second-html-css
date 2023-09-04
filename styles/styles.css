@@ -14,7 +14,6 @@ p{
     column-count: 3;
     column-gap: 60px;
 }
-
 ul{
     /* border-width: 4px;
     border-style: solid;
@@ -24,8 +23,19 @@ ul{
     border-left: 8px dashed skyblue;
     border-top: 8px dotted #ffc0cb;
 }
-
 li{
     list-style-type: square;
     text-shadow: 2px 5px #E9E9E9;
+}
+p.iamclass{
+    color: red;
+}
+div.iamclass.sub{
+    color: green;
+}
+#iamid{
+    color: pink;
+}
+p#iamid{
+    color: violet;
 }

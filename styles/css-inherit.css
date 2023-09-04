@@ -1,0 +1,15 @@
+div{
+    color: lightcoral;
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+}
+/* this will work more because it is more specific, but if not specific it the latest one will work */
+div p{
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
+p{
+    color: pink;
+}
